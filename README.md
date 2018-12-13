@@ -12,7 +12,7 @@ This repo focuses on flutter learning.
       
   * Flutter SDK
     * Download [Flutter SDK 1.0](https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_v1.0.0-stable.zip).
-    * Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (eg. `C:\src\flutter`; do not install Flutter in a directory like `C:\Program Files\ that requires elevated privileges`). 
+    * Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (eg. `C:\src\flutter`; do not install Flutter in a directory like `C:\Program Files\' that requires elevated privileges). 
     * Locate the file `flutter_console.bat` inside the flutter directory. Start it by double-clicking.
     * Add the full path to `flutter\bin` using to `PATH`under User variable.
   * Android Studio
@@ -23,6 +23,6 @@ This repo focuses on flutter learning.
 
 # References
 * [Flutter Web](https://flutter.io/).
-* [Flutter Installion On Windows](https://flutter.io/docs/get-started/install/windows).
+* [Flutter Installation On Windows](https://flutter.io/docs/get-started/install/windows).
 * [Flutter Chinese Resources](https://flutter-io.cn/).
 * [Android Studio Chinese Community](http://www.android-studio.org/index.php).
