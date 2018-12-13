@@ -15,6 +15,12 @@ This repo focuses on flutter learning.
     * Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (eg. `C:\src\flutter`; do not install Flutter in a directory like `C:\Program Files\' that requires elevated privileges). 
     * Locate the file `flutter_console.bat` inside the flutter directory. Start it by double-clicking.
     * Add the full path to `flutter\bin` using to `PATH`under User variable.
+    * After above operation completed, open power shell or cmd to run the following command.
+      ```
+      flutter doctor
+      ```
+      to see if there are any platform dependencies you need to complete the setup.
+      
   * Android Studio
     * Download & Install [Android Studio](https://developer.android.com/studio/).
     
