@@ -2,6 +2,10 @@
 This repo focuses on flutter learning.
 
 # Setup Development Environment
+The development environment includes
+  * Windows
+  * Mac
+  
   ## Windows
   * System Requirements
     * OS: Windows 7 SP1 or later (64-bit)
