@@ -73,7 +73,7 @@ The development environment includes
   
   * Android Emulator
     * Install [Android Studio](https://developer.android.com/studio).
-    * Start Android Studio, and go through the ‘Android Studio Setup Wizard’. This installs the latest Android SDK, Android SDK Platform-Tools, and Android SDK Build-Tools, which are required by Flutter when developing for Android.
+    * Start Android Studio, and go through the `Android Studio Setup Wizard`. This installs the latest Android SDK, Android SDK Platform-Tools, and Android SDK Build-Tools, which are required by Flutter when developing for Android.
     * Enable [VM acceleration](https://developer.android.com/studio/run/emulator-acceleration) on your machine.
     * Launch `Android Studio > Tools > Android > AVD Manager` and select `Create Virtual Device`. (The `Android` submenu is only present when inside an Android project.)
     * Choose a device definition and select `Next`.
