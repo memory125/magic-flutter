@@ -70,6 +70,17 @@ The development environment includes
     * Make sure your simulator is using a 64-bit device (iPhone 5s or later) by checking the settings in the simulator’s `Hardware > Device menu`.
     * Depending on your development machine’s screen size, simulated high-screen-density iOS devices may overflow your screen. Set the device scale under the `Window > Scale` menu in the simulator.
     * Start your app by running `flutter run`.  
+  
+  * Android Emulator
+    * Install [Android Studio](https://developer.android.com/studio).
+    * Start Android Studio, and go through the ‘Android Studio Setup Wizard’. This installs the latest Android SDK, Android SDK Platform-Tools, and Android SDK Build-Tools, which are required by Flutter when developing for Android.
+    * Enable [VM acceleration](https://developer.android.com/studio/run/emulator-acceleration) on your machine.
+    * Launch `Android Studio > Tools > Android > AVD Manager` and select `Create Virtual Device`. (The `Android` submenu is only present when inside an Android project.)
+    * Choose a device definition and select `Next`.
+    * Select one or more system images for the Android versions you want to emulate, and select `Next`. An x86 or x86_64 image is recommended.
+    * Under Emulated Performance, select `Hardware - GLES 2.0` to enable [hardware acceleration](https://developer.android.com/studio/run/emulator-acceleration).
+    * Verify the AVD configuration is correct, and select `Finish`.
+    * In `Android Virtual Device Manager`, click `Run` in the toolbar. The emulator starts up and displays the default canvas for your selected OS version and device.
     
 # Hello Flutter
 * The 1st and simple flutter sample to get started to learn flutter.
@@ -79,4 +90,6 @@ The development environment includes
 * [Flutter Installation On Windows](https://flutter.io/docs/get-started/install/windows).
 * [Flutter Installation On Mac](https://flutter.io/docs/get-started/install/macos).
 * [Flutter Chinese Resources](https://flutter-io.cn/).
+* [Android Studio Web](https://developer.android.com/studio).
 * [Android Studio Chinese Community](http://www.android-studio.org/index.php).
+* [Android Managing AVDs](https://developer.android.com/studio/run/managing-avds).
