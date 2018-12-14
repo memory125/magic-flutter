@@ -1,7 +1,7 @@
 # magic-flutter
 This repo focuses on flutter learning.
 
-# Setup Development Environment
+# Environments Setup 
 The development environment includes
   * Windows
   * Mac
