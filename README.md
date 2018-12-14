@@ -83,7 +83,7 @@ The development environment includes
     * In `Android Virtual Device Manager`, click `Run` in the toolbar. The emulator starts up and displays the default canvas for your selected OS version and device.
     
 # Create Project
-We can create flutter projects via the following commmand.
+We can create flutter projects via the following command.
  ```
  flutter create project_name
  ```
